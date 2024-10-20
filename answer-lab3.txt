@@ -1,0 +1,4 @@
+1. the purpose of having an individual handler function for each exception/interrupt is  hw behaves differently when facing different exceptions. (e.g. error code)
+
+2. generation protection fault 13
+	 page fault will restart this instruction is int $14, which causes infinitely loop
